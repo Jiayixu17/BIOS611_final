@@ -1,18 +1,4 @@
-BIOS611_final/
-
-├── data/                # Input dataset (city lifestyle features)
-
-├── report/              # Final report in R Markdown + HTML output
-
-│   ├── report.Rmd
-
-│   ├── report.html
-
-│   └── report_files/
-
-├── Makefile             # Automates report generation
-
-└── .gitignore
+BIOS611 Final Project
 
 **The analysis includes:**
 
@@ -35,7 +21,9 @@ BIOS611_final/
 	•	Happiness score
 
 **How to Reproduce**
+
 install.packages(c("tidyverse", "FactoMineR", "factoextra", "ggplot2", "plotly", "corrplot"))
 
 **Run the Makefile to generate the report:**
+
 make
