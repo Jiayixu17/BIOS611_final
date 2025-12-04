@@ -18,7 +18,6 @@ report: $(PDF)
 $(PDF): $(RMD) $(DATA)
 	Rscript -e "rmarkdown::render('$(RMD)', output_file = '$(PDF)')"
 
-# 可选：生成 HTML 报告
 html: $(HTML)
 
 $(HTML): $(RMD) $(DATA)
