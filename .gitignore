@@ -1,0 +1,24 @@
+# R / RStudio
+.Rhistory
+.RData
+.Rproj.user
+.Ruserdata
+*.Rproj
+
+# Python cache (just in case)
+__pycache__/
+*.pyc
+
+# macOS system files
+.DS_Store
+
+# Data files (do NOT track raw data)
+data/*.csv
+data/*.xlsx
+data/*.zip
+
+# Output files (generated)
+output/*
+report/*.pdf
+report/*.html
+report/figure/
